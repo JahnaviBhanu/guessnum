@@ -1,0 +1,26 @@
+.container{
+    text-align: center;
+    border:2px solid black;
+    background-image:url('hfdj.jpg');
+}
+body{
+    background-image: url('bg.jpg');
+}
+.container input:hover{
+    background-image: linear-gradient(white,rgb(113, 185, 201));
+    box-shadow: 0 0 50px black;
+}
+.container input{
+    background-image:linear-gradient(rgb(153, 233, 244),white);
+}
+#btn{
+    border-color:3px rgb(13, 13, 13);
+    background-color: rgb(195, 195, 234);
+}
+#btn:hover{
+    background-image:linear-gradient(rgb(106, 157, 220),rgb(135, 207, 246));
+    box-shadow: 0 0 70px rgba(68, 5, 110, 0.418);
+}
+#msg{
+    background-color: aliceblue;
+}
